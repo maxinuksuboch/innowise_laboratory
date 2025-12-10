@@ -1,0 +1,31 @@
+[project]
+name = "lecture-5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiosqlite==0.21.0",
+    "annotated-doc==0.0.4",
+    "annotated-types==0.7.0",
+    "anyio==4.12.0",
+    "click==8.3.1",
+    "colorama==0.4.6",
+    "fastapi==0.123.10",
+    "greenlet==3.3.0",
+    "h11==0.16.0",
+    "idna==3.11",
+    "pydantic==2.12.5",
+    "pydantic-core==2.41.5",
+    "sqlalchemy==2.0.44",
+    "starlette==0.50.0",
+    "typing-extensions==4.15.0",
+    "typing-inspection==0.4.2",
+    "uvicorn==0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.12.0",
+    "ruff>=0.14.8",
+]
